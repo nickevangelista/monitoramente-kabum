@@ -56,7 +56,7 @@ def verificar_preco():
             print(f"Produto: RTX 5060 Gigabyte")
             print(f"Preço Atual: R$ {preco_float}")
             
-            target_price = 2200.00
+            target_price = 2100.00
             
             if preco_float <= target_price:
                 print("🚨 PREÇO ALVO ATINGIDO!")
