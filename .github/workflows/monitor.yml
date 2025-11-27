@@ -27,5 +27,5 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python monitoramentowithmessage.py
-          python "monitoramentowithmessage copy.py"
-          python "monitoramentowithmessage copy 2.py"
+          python monitoramento_memoriaram.py
+          python monitoramento_cooler.py
