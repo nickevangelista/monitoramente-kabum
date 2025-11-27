@@ -60,7 +60,7 @@ def verificar_preco():
             
             if preco_float <= target_price:
                 print("🚨 PREÇO ALVO ATINGIDO!")
-                msg = f"🚨 BAIXOU!\nRTX 5060 Gigabyte\nNovo Preço: R$ {preco_float}\nLink: {url}"
+                msg = f"🚨 BAIXOU!\nCooler DeepCool AK 400\nNovo Preço: R$ {preco_float}\nLink: {url}"
                 enviar_telegram(msg)
             else:
                 print(f"Ainda acima da meta de R$ {target_price}")
