@@ -14,6 +14,7 @@ O script foi configurado para rodar localmente ou via **GitHub Actions** (na nuv
 ## 🛠️ Tecnologias Utilizadas
 
 - Python 3.9+
+- Github Actions
 - [Requests](https://pypi.org/project/requests/) (Requisições HTTP)
 - [BeautifulSoup4](https://pypi.org/project/beautifulsoup4/) (Parsing de HTML)
 - [Python-dotenv](https://pypi.org/project/python-dotenv/) (Gerenciamento de variáveis de ambiente)
